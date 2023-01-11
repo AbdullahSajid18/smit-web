@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#maindiv {
+    width: 100vw;
+    background-color: #eeee;
+}
+.uppernavbar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.leftarea{
+    display: flex;
+    gap: 30px;
+    padding: 20px 60px;
+}
+.rightarea {
+    background-color: white;
+    padding: 20px 10px;
+    
+}
+#lowermainnavbar {
+    background-color: white;
+    padding: 20px 0;
+}
+.lowernavbar {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.lowernavbar ul {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.lowernavbar li {
+    list-style: none;
+    padding: 20px 10px;
+}
+.lowernavbar button {
+    background-color: blue;
+    color: white;
+    border-radius: 9px;
+}
