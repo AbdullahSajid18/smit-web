@@ -5,6 +5,7 @@
 }
 #maindiv {
     width: 100vw;
+    height: 30px;
     background-color: #eeee;
 }
 .uppernavbar {
@@ -16,15 +17,15 @@
 .leftarea{
     display: flex;
     gap: 30px;
-    padding: 20px 60px;
+    padding: 5px 20px;
 }
 .rightarea {
-    background-color: white;
-    padding: 20px 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 10px;
     
 }
 #lowermainnavbar {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 20px 0;
 }
 .lowernavbar {
@@ -32,6 +33,7 @@
     width: 80%;
     display: flex;
     justify-content: space-between;
+    position: sticky;
 }
 .lowernavbar ul {
     display: flex;
@@ -43,7 +45,132 @@
     padding: 20px 10px;
 }
 .lowernavbar button {
-    background-color: blue;
-    color: white;
+    height: 50px;
+    width: 135px;
+    background-color: #0d6db7;
+    color: rgb(255, 255, 255);
     border-radius: 9px;
+    
+    
+}
+#maindiv1 {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section1 {
+    font-weight: 700;
+    padding: 0 100px;
+    font-size: 28px;
+    width: 65%;
+   
+
+}
+.color_theme_english {
+    color: #8dc63f;
+}
+.section1 h3{
+    font-size: 25px;
+}
+.section1 p{
+    font-size: 20px;
+    font-weight: normal;
+}
+.readmore {
+    height: 40px;
+    width: 120px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.section2 {
+    width: 35%;
+}
+#box {
+    animation-name: flipInY;
+    background-color: rgba(182,239,73,.2);
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px 0;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.box1 {
+    color: rgba(0,0,0,.85);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 0.5em;
+    padding: 0 10px;
+}
+.box1 span {
+    color: #0d6db7;
+}
+.column1 {
+    padding: 0 0 auto;
+    width: 25%;
+}
+.column2 {
+    padding: 0 0 auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box2 button {
+    background-color: #424242;
+    color: #f2e7e0;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 1rem 2rem;
+}
+.box3 button {
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 1rem 1rem;
+}
+.box4 button {
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 1rem 1rem;
+}
+.box5 button {
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 1rem 1.5rem;
+}
+.box6 button {
+    background-color: #8dc63f;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 1rem 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.image img {
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    
 }
