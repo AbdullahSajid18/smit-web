@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 #maindiv {
     width: 98vw;
@@ -49,12 +50,13 @@
     width: 135px;
     background-color: #0d6db7;
     color: rgb(255, 255, 255);
+    border: none;
     border-radius: 9px;
-    transition: transform 0.7s;
+    transition: transform 0.3s;
 }
 
 .lowernavbar button:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 #maindiv1 {
     width: 80%;
@@ -125,25 +127,27 @@
 .box2 button {
     background-color: #424242;
     color: #f2e7e0;
+    border: none;
     border-radius: 5px;
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 10px;
     padding: 1rem 2rem;
-    transition: transform 1s;
+    transition: transform 0.2s;
 }
 
 .box2 button:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 .box3 button {
     background-color: #fff;
+    border: none;
     border-radius: 10px;
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 10px;
     padding: 1rem 1rem;
-    transition: transform 1s;
+    transition: transform 0.2s;
 }
 
 .box3 button:hover {
@@ -151,12 +155,13 @@
 }
 .box4 button {
     background-color: #fff;
+    border: none;
     border-radius: 10px;
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 10px;
     padding: 1rem 1rem;
-    transition: transform 1s;
+    transition: transform 0.2s;
 }
 
 .box4 button:hover {
@@ -164,12 +169,13 @@
 }
 .box5 button {
     background-color: #fff;
+    border: none;
     border-radius: 10px;
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 10px;
     padding: 1rem 1.5rem;
-    transition: transform 1s;
+    transition: transform 0.2s;
 }
 
 .box5 button:hover {
@@ -179,6 +185,7 @@
     background-color: #8dc63f;
     color: white;
     display: inline-block;
+    border: none;
     border-radius: 10px;
     font-size: 14px;
     margin-bottom: 10px;
@@ -187,7 +194,7 @@
     line-height: 1.5;
     text-align: center;
     text-decoration: none;
-    transition: transform 1s;
+    transition: transform 0.2s;
 }
 
 .box6 button:hover {
@@ -218,7 +225,8 @@
 
 .servicebox {
     width: 150px;
-   background-color: rgba(182,239,73,.2);
+    background-color: rgba(182,239,73,.2);
+    border: none;
     border-radius: 10px;
     color: #424242;
     cursor: default;
@@ -230,6 +238,11 @@
     font-weight: 600;
     line-height: 1.5;
     margin-bottom: 0.5em;
+    transition: transform 0.3s;
+}
+
+.servicebox:hover {
+    transform: scale(1.155);
 }
 
 .servicebox img {
@@ -255,14 +268,20 @@
     margin-bottom: 10px;
     position: relative;
     width: 400px;
+    transition: transform 0.3s;
 }
 
+.fundingbox:hover{
+    transform: scale(1.035);
+    filter: brightness(1.5);
+}
 
 .fundingbox img {
     border-radius: 10px;
     height: 300px;
     object-fit: cover;
     width: 100%;
+    filter: brightness(0.5);
 }
 
 
